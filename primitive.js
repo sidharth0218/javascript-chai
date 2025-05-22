@@ -26,13 +26,23 @@ const Function =function(){
     console.log("hello world");
     
 }
-console.log(typeof Function);
-console.log(typeof myObj);
-console.log(typeof heros);
-console.log(typeof bignumber);
-console.log(typeof id);
-console.log(typeof id1);
-console.log(typeof scoreValue);
+let stack="cello";
+let myobj1=myObj;
+myobj1.name="Madan Lal Kashyap";
+let stack1=stack;
+stack1="apple";
+console.log(stack1,myobj1);
+console.log(stack,myObj);
+
+// isme non primitive mai  refer hoti hai value to original  but in case of primitive  copy hoti hai value not refer from original
+// aur types kaun kaun c if data type hai  
+
+
+// console.log(typeof heros);
+// console.log(typeof bignumber);
+// console.log(typeof id);
+// console.log(typeof id1);
+// console.log(typeof scoreValue);
 
 
 
